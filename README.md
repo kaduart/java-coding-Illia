@@ -53,4 +53,4 @@ Tem o papel de fazer a tratativa de erro caso o usuário não tenha sido encontr
 
 
 ## OBS:
-Foi feita a integração ao HEROKU automaticamente, quando houver alguma alteração (git push etc...).
+Foi feita a integração ao HEROKU, quando houver alguma alteração (git push etc...) sera feito o deploy automaticamente.
