@@ -29,8 +29,8 @@ Tem o papel de fazer a persistência dos dados junto ao Banco de Dados.
 Tem a finalidade de fazer a utilização dos protocolos HTTP (GET, PUT, POST e DELETE)
 
 ## Classe UserService
-É passada para a classe UserController, como forma de segurança dos dados(como se fosse um encapsulamento), evitandoa ssim que usuario através do nabegador consiga pegar essas informações, através do "ID" por exemplo.
-Na classe "UserService" onde chamamos a classe "UserRepository" para fazer a persistência dos dados no Banco de dados e pegamos esse "userDTO" e o convertemos para "User" quando preciso, dependendo de qula fluxo esta vindo a informação.
+É passada para a classe UserController, como forma de segurança dos dados(como se fosse um encapsulamento), evitando assim que usuário através do navegador(por exemplo),consiga pegar essas informações, através do "ID".
+Na classe "UserService" onde chamamos a classe "UserRepository" para fazer a persistência dos dados no Banco de dados e pegamos esse "userDTO" e o convertemos para "User" e vice-versa.
 
 ## Classe UserMapper
 Tem a finalidade de converte o DTO para a classe User e vice-versa.
