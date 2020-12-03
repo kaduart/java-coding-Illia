@@ -44,3 +44,6 @@ Foi utilizado o framework SpringBootSecurity para fazer a parte de configuraçã
 ## Classe ImplementationUserDetailsService
 Tem o papel de fazer a tratativa de erro caso o usuário não tenha sido encontrado, Caso seja ele redireciona para determinada tela já autenticado.
 
+
+## OBS:
+Foi feita a integração ao HEROKU automaticamente, quando houver alguma alteração (git push etc...).
