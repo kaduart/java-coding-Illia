@@ -19,6 +19,7 @@ Mapstruct,
 H2 Data Base
 
 ## Arquitetura
+<img src="/home/ricardo/Documentos/teste Ilia/prints/role.png">
 A Arquitetura do projeto foi criada conforme imagem, com intuito de dividir ao máximo os packages com suas classes de acordo com sua função.
 
 ## Classe UserDTO
