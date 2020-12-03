@@ -19,29 +19,36 @@ Mapstruct,
 H2 Data Base
 
 ## Arquitetura
-<img src="/src/main/java/br/com/teste/ilia/role.png">
+<img src="/src/main/java/br/com/teste/ilia/arquitetura.png">
 A Arquitetura do projeto foi criada conforme imagem, com intuito de dividir ao máximo os packages com suas classes de acordo com sua função.
 
 ## Classe UserDTO
+<img src="/src/main/java/br/com/teste/ilia/userDTO.png">
 Tem o papel de fazer a persistência dos dados junto ao Banco de Dados.
 
 ## Classe UserController
+<img src="/src/main/java/br/com/teste/ilia/userController.png">
 Tem a finalidade de fazer a utilização dos protocolos HTTP (GET, PUT, POST e DELETE)
 
 ## Classe UserService
+<img src="/src/main/java/br/com/teste/ilia/userService.png">
 É passada para a classe UserController, como forma de segurança dos dados(como se fosse um encapsulamento), evitando assim que usuário através do navegador(por exemplo),consiga pegar essas informações, através do "ID".
 Na classe "UserService" onde chamamos a classe "UserRepository" para fazer a persistência dos dados no Banco de dados e pegamos esse "userDTO" e o convertemos para "User" e vice-versa.
 
 ## Classe UserMapper
+<img src="/src/main/java/br/com/teste/ilia/userMap.png">
 Tem a finalidade de converte o DTO para a classe User e vice-versa.
 
 ## Classe Role
+<img src="/src/main/java/br/com/teste/ilia/role.png">
 A classe Role tem a função de criar papéis para cada usuário, onde cada um tem acesso aquilo que for determinado pela gestão.
 
 ## Classe WebConfigSecurity
+<img src="/src/main/java/br/com/teste/ilia/WebConfigSecurity.png">
 Foi utilizado o framework SpringBootSecurity para fazer a parte de configuração do serviço de autenticação e das Roles.
 
 ## Classe ImplementationUserDetailsService
+<img src="/src/main/java/br/com/teste/ilia/ImplementationUserDetailsService.png">
 Tem o papel de fazer a tratativa de erro caso o usuário não tenha sido encontrado, Caso seja ele redireciona para determinada tela já autenticado.
 
 
