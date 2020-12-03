@@ -1,5 +1,5 @@
 # Teste Ília Java Dev 
-Projeto básico de informação de um usuário que utiliza o framework SpringBootSecurity para autenticação, e basicamente um CRUD de usuário.
+Projeto básico de informação de usuário com CRUD utilizando o framework SpringBootSecurity para autenticação.
 
 ## Pré-requisitos
 Java 8
