@@ -36,7 +36,7 @@ Tem a finalidade de fazer a utilização dos protocolos HTTP (GET, PUT, POST e D
 Na classe "UserService" onde chamamos a classe "UserRepository" para fazer a persistência dos dados no Banco de dados e pegamos esse "userDTO" e o convertemos para "User" e vice-versa.
 
 ## Classe UserMapper
-<img src="/src/main/java/br/com/teste/ilia/userMap.png">
+<img src="/src/main/java/br/com/teste/ilia/userMapper.png">
 Tem a finalidade de converte o DTO para a classe User e vice-versa.
 
 ## Classe Role
